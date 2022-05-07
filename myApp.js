@@ -23,7 +23,7 @@ const createManyPeople = async  (arrayOfPeople)=> {
  
 };
 try {
-  await createManyPeople(arrayOfPeople)
+   createManyPeople(arrayOfPeople)
 } catch (error) {
   console.log(err);
 }
